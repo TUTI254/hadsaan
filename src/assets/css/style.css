@@ -227,7 +227,7 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../images/mara3.jpeg);
+  background-image: url(/images/mara3.jpeg);
   height: auto;
   background-size: 100%;
   padding: 0px 0px 20px 0px;
@@ -245,12 +245,17 @@ button {
 }
 
 .logo_mobile {
+  display: block;
   width: 100%;
   float: left;
   text-align: center;
   padding-bottom: 20px;
 }
-
+@media only screen and (min-width: 768px) {
+  .logo_mobile {
+    display: none;
+  }
+}
 .mobile_menu {
   width: 100%;
   float: left;
@@ -333,7 +338,7 @@ button {
 
 .header_main {
   width: 100%;
-  background-image: url(../images/mara3.jpeg);
+  background-image: url(/images/mara3.jpeg);
   background-size: 100%;
   padding: 10px 0px 0px 0px;
 }
@@ -425,8 +430,8 @@ button {
 }
 
 .services_img {
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 300px;
   object-fit: cover;
   float: left;
   text-align: center;
@@ -536,7 +541,7 @@ button {
 .blog_section {
   width: 100%;
   float: left;
-  background-image: url(../images/flamingos.jpeg);
+  background-image: url(/images/flamingos.jpeg);
   height: auto;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -882,7 +887,7 @@ button {
 .footer_section {
   width: 100%;
   float: left;
-  background-image: url(../images/footer-bg.png);
+  background-image: url(/images/footer-bg.png);
   height: auto;
   padding-top: 250px;
   background-size: 100% 100%;

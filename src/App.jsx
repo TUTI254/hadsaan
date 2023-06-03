@@ -1,15 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
+// import DialogBox from "./DialogBox";
 function App() {
   return (
     <>
       {/* header section start  */}
       <div className="header_section">
         <div className="header_main">
-          <div className="mobile_menu">
+          {/* <div className="mobile_menu">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="logo_mobile">
                 <a href="index.html">
-                  <img src="/src/assets/images/hadsaan.png" />
+                  <img src="/images/hadsaan.png" />
                 </a>
               </div>
               <button
@@ -49,11 +50,11 @@ function App() {
                 </ul>
               </div>
             </nav>
-          </div>
+          </div> */}
           <div className="container-fluid">
             <div className="logo">
               <a href="">
-                <img src="/src/assets/images/hadsaan.png" />
+                <img src="/images/hadsaan.png" />
               </a>
             </div>
             <div className="menu_main">
@@ -76,6 +77,11 @@ function App() {
           </div>
         </div>
         {/* banner section start */}
+        <div className="logo_mobile">
+          <a href="index.html">
+            <img src="/images/hadsaan.png" />
+          </a>
+        </div>
         <div className="banner_section layout_padding">
           <div
             id="carouselExampleSlidesOnly"
@@ -156,7 +162,7 @@ function App() {
           {/* <div className="play_icon_main">
             <div className="play_icon">
               <a href="#">
-                <img src="/src/assets/images/play-icon.png" />
+                <img src="/public/images/play-icon.png" />
               </a>
             </div>
           </div> */}
@@ -185,10 +191,7 @@ function App() {
             </div>
             <div className="col-md-6 padding_right_0">
               <div>
-                <img
-                  src="/src/assets/images/elephant.jpg"
-                  className="about_img"
-                />
+                <img src="/images/elephant.jpg" className="about_img" />
               </div>
             </div>
           </div>
@@ -209,21 +212,15 @@ function App() {
             <div className="row">
               <div className="col-md-4">
                 <div>
-                  <img
-                    src="/src/assets/images/mara3.jpg"
-                    className="services_img"
-                  />
+                  <img src="/images/package1.jpeg" className="services_img" />
                 </div>
-                <div className="btn_main">
-                  <a href="#reach-out">Massai Mara</a>
+                <div className="btn_main active">
+                  <a href="#reach-out">Masaai Mara</a>
                 </div>
               </div>
               <div className="col-md-4">
                 <div>
-                  <img
-                    src="/src/assets/images/naivasha.webp"
-                    className="services_img"
-                  />
+                  <img src="/images/naivasha.webp" className="services_img" />
                 </div>
                 <div className="btn_main active">
                   <a href="#reach-out">Lake Naivasha</a>
@@ -231,10 +228,7 @@ function App() {
               </div>
               <div className="col-md-4">
                 <div>
-                  <img
-                    src="/src/assets/images/diani2.webp"
-                    className="services_img"
-                  />
+                  <img src="/images/diani2.webp" className="services_img" />
                 </div>
                 <div className="btn_main">
                   <a href="#reach-out">Diani</a>
@@ -247,6 +241,7 @@ function App() {
       {/* <!-- services section end --> */}
       {/* <!-- footer section start --> */}
       <div className="footer_section layout_padding" id="reach-out">
+        <h1 className="blog_taital">Contact us For Bookings</h1>
         <div className="container">
           {/* <div className="input_btn_main">
             <input
@@ -261,38 +256,38 @@ function App() {
           </div> */}
           <div className="location_main">
             <div className="call_text">
-              <img src="/src/assets/images/call-icon.png" />
+              <img src="/images/call-icon.png" />
             </div>
             <div className="call_text">
-              <a href="+254 111358832">Call +254 111358832</a>
+              <a href="tel:+254 111358832">Call +254 111358832</a>
             </div>
             <div className="call_text">
-              <img src="/src/assets/images/mail-icon.png" />
+              <img src="/images/mail-icon.png" />
             </div>
             <div className="call_text">
-              <a href="">info@hadsaan.com</a>
+              <a href="mailto:info@hadsaan.com">info@hadsaan.com</a>
             </div>
           </div>
           <div className="social_icon">
             <ul>
               <li>
                 <a href="#">
-                  <img src="/src/assets/images/fb-icon.png" />
+                  <img src="/images/fb-icon.png" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/src/assets/images/twitter-icon.png" />
+                  <img src="/images/twitter-icon.png" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/src/assets/images/linkedin-icon.png" />
+                  <img src="/images/linkedin-icon.png" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/src/assets/images/instagram-icon.png" />
+                  <img src="/images/instagram-icon.png" />
                 </a>
               </li>
             </ul>
