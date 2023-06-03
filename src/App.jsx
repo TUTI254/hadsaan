@@ -53,7 +53,7 @@ function App() {
           </div> */}
           <div className="container-fluid">
             <div className="logo">
-              <a href="">
+              <a href="javascript:;">
                 <img src="/images/hadsaan.png" />
               </a>
             </div>
@@ -78,7 +78,7 @@ function App() {
         </div>
         {/* banner section start */}
         <div className="logo_mobile">
-          <a href="index.html">
+          <a href="javascript:;">
             <img src="/images/hadsaan.png" />
           </a>
         </div>
@@ -210,15 +210,23 @@ function App() {
           </p>
           <div className="services_section_2">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <div>
-                  <img src="/images/package1.jpeg" className="services_img" />
+                  <img src="/images/mara3.jpg" className="services_img" />
                 </div>
                 <div className="btn_main active">
                   <a href="#reach-out">Masaai Mara</a>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3">
+                <div>
+                  <img src="/images/wasini1.jpeg" className="services_img" />
+                </div>
+                <div className="btn_main">
+                  <a href="#reach-out">Wasini Island</a>
+                </div>
+              </div>
+              <div className="col-md-3">
                 <div>
                   <img src="/images/naivasha.webp" className="services_img" />
                 </div>
@@ -226,7 +234,7 @@ function App() {
                   <a href="#reach-out">Lake Naivasha</a>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <div>
                   <img src="/images/diani2.webp" className="services_img" />
                 </div>
