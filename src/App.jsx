@@ -212,7 +212,7 @@ function App() {
             <div className="row">
               <div className="col-md-3">
                 <div>
-                  <img src="/images/mara3.jpg" className="services_img" />
+                  <img src="/images/mara5.jpeg" className="services_img" />
                 </div>
                 <div className="btn_main active">
                   <a href="#reach-out">Masaai Mara</a>
@@ -278,23 +278,35 @@ function App() {
           </div>
           <div className="social_icon">
             <ul>
-              <li>
+              {/* <li>
                 <a href="#">
                   <img src="/images/fb-icon.png" />
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#">
+                <a
+                  href="https://twitter.com/HadsaanT?t=ehbEfQ2yswI4_JAFc3ScUg&s=09"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="/images/twitter-icon.png" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/hadsaan-travels-847a60279"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="/images/linkedin-icon.png" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="https://instagram.com/hadsaantours?igshid=MzNlNGNkZWQ4Mg=="
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="/images/instagram-icon.png" />
                 </a>
               </li>
